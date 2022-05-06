@@ -4,6 +4,7 @@ export const uiType = (variant: string) => {
     case "secondary":
       val = 1;
       break;
+
     case "error":
       val = 2;
       break;
@@ -11,9 +12,7 @@ export const uiType = (variant: string) => {
     case "success":
       val = 3;
       break;
-    case "link":
-      val = 3;
-      break;
+
     default:
       val = 0;
       break;
