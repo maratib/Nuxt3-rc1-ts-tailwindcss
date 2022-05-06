@@ -1,8 +1,5 @@
-<script setup lang="ts">
-import { ref } from "vue";
-defineProps<{ msg?: string }>();
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <h1>This is a footer</h1>
+  <h1>Footer</h1>
 </template>
